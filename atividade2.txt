@@ -1,1 +1,3 @@
 Colocar cada exercicio da lista anterior em uma função e criar uma opção de menu para mostrar cada um.
+
+Criar funções de uma calculadora: SOMA, SUBTRACAO, DIVISAO, MULTIPLICACAO,ACRESCIMO, DESCONTO. Criar um arquivo com opções de qual função usar.
