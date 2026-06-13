@@ -1,0 +1,127 @@
+Exercícios de Estruturas Condicionais
+1. Verificar se um número é positivo, negativo ou zero.Faça um programa que leia um número e informe se ele é:
+    Positivo
+    Negativo
+    Zero
+
+    Exemplo:
+
+    Digite um número: -5
+    Número negativo
+
+2. Verificar se um aluno foi aprovado Leia a nota final de um aluno.
+
+    Nota maior ou igual a 7 → Aprovado
+    Nota entre 5 e 6.9 → Recuperação
+    Nota menor que 5 → Reprovado
+
+    Exemplo: Digite a nota: 6
+         Recuperação
+
+3. Verificar se um número é par ou ímpar. Leia um número inteiro e informe se ele é par ou ímpar.
+
+    Dica:
+    Utilize o operador %.
+
+    Exemplo:
+    Digite um número: 8
+    Número par
+
+4. Maior entre dois números. Leia dois números e exiba qual deles é o maior.
+
+    Caso sejam iguais, informe:  Os números são iguais.
+
+5. Cálculo de desconto. Uma loja oferece:
+
+    10% de desconto para compras acima de R$ 500
+    5% de desconto para compras acima de R$ 200
+    Sem desconto para valores menores ou iguais a R$ 200
+
+    Leia o valor da compra e mostre o valor final.
+
+    Exemplo:
+
+    Valor da compra: 600
+
+    Valor final: R$ 540.00
+
+Exercícios de Estruturas de Repetição
+1. Exibir números de 1 a 10. Utilizando um laço de repetição, exiba os números de 1 até 10.
+
+    Saída esperada:
+    1
+    2
+    3
+    ...
+    10
+
+2. Tabuada
+
+    Leia um número e exiba sua tabuada de 1 a 10.
+
+    Exemplo:
+
+    Digite um número: 5
+
+    5 x 1 = 5
+    5 x 2 = 10
+    ...
+    5 x 10 = 50
+
+3. Soma dos números de 1 a N. Leia um número inteiro N e calcule a soma de todos os números de 1 até N.
+
+    Exemplo:
+
+    Digite N: 5
+
+    Resultado: 15
+
+    Explicação:
+
+    1 + 2 + 3 + 4 + 5 = 15
+
+4. Contar números pares. Leia um número N e mostre todos os números pares entre 1 e N.
+
+    Exemplo:
+
+    Digite N: 10
+
+    2
+    4
+    6
+    8
+    10
+
+5. Média de várias notas
+
+    Faça um programa que solicite notas ao usuário.
+
+    A entrada deve continuar até que seja digitado -1.
+
+    Ao final, exiba:
+
+    Quantidade de notas informadas
+    Soma das notas
+    Média das notas
+
+    Exemplo:
+
+    Digite a nota (-1 para sair): 8
+    Digite a nota (-1 para sair): 7
+    Digite a nota (-1 para sair): 9
+    Digite a nota (-1 para sair): -1
+
+    Quantidade: 3
+    Soma: 24
+    Média: 8.0
+    Desafio Extra
+
+6. Faça um programa que sorteie um número entre 1 e 100 e permita que o usuário tente adivinhar.
+
+A cada tentativa o programa deve informar:
+
+"Muito alto" se o valor digitado for maior.
+"Muito baixo" se o valor digitado for menor.
+"Parabéns!" quando acertar.
+
+Ao final, mostre quantas tentativas foram necessárias.
