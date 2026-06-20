@@ -1,0 +1,4 @@
+Crie um programa que permita ao usuário digitar 
+nome de pessoas e armazene em uma lista. O programa deve 
+ter a opção de cadastrar nova pessoa, alterar, excluir, 
+ou consultar. 
