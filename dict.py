@@ -25,14 +25,17 @@ print(thisdict)
 thisdict.update({'color':'vermelha'})
 print(thisdict)
 
-thisdict.pop('color')
-print(thisdict)
+#thisdict.pop('color')
+#print(thisdict)
 
-thisdict.popitem()
-print(thisdict)
+#thisdict.popitem()
+#print(thisdict)
 
-del thisdict['model']
-print(thisdict)
+#del thisdict['model']
+#print(thisdict)
 
-del thisdict
-print(thisdict)
+#del thisdict
+#print(thisdict)
+
+for x, y in thisdict.items():
+  print(x, y)
