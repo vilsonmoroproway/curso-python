@@ -1,0 +1,11 @@
+Criar classe produto com os seguintes atributos:
+-> descricao
+-> preco
+-> estoque
+
+criar metodo __init__
+criar encapsulamento
+
+Criar uma aplicação para cadastrar produtos. O usuario informa os dados para cada produto. 
+Deve ter a opção de cadastrar, alterar, excluir e consultar produtos. Ao fechar o programa gravar
+os dados em arquivos. Ao abrir o programa carregar os dados em uma lista.
