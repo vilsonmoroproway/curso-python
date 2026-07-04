@@ -14,6 +14,7 @@ def consultaProduto(descricao):
     for x in produtos:
         if (descricao == x.get__descricao()):
             return x
+    raise Exception('Produto não cadastrado')
 
 while True:
     print('Digite 1 para salvar')
@@ -27,14 +28,21 @@ while True:
         case 1:
             salvar()
         case 2:
-            x = consultaProduto(input('informe descrição que deseja excluir: '))
-            produtos.remove(x)
+            try:
+                x = consultaProduto(input('informe descrição que deseja excluir: '))
+                produtos.remove(x)
+            except Exception as e:
+                print(e)
+
         case 3:
-            produtoAlterar = input('informe produto que deseja alterar: ')
-            x = consultaProduto(produtoAlterar)
-            print(f'Preço atual: {x.get__preco()} Estoque Atual: {x.get__estoque()}')
-            x.set__preco(float(input('informe novo preço: ')))
-            x.set__estoque(int(input('informe nova quantidade: ')))
+            try:
+                produtoAlterar = input('informe produto que deseja alterar: ')
+                x = consultaProduto(produtoAlterar)
+                print(f'Preço atual: {x.get__preco()} Estoque Atual: {x.get__estoque()}')
+                x.set__preco(float(input('informe novo preço: ')))
+                x.set__estoque(int(input('informe nova quantidade: ')))
+            except Exception as e:
+                print(e)
                    
         case 4:
             for x in produtos:
