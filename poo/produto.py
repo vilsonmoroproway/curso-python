@@ -34,5 +34,6 @@ class Produto:
         else:
             self.__estoque = estoque
 
-
+    def display(self):
+        print(f'Descrição: {self.__descricao} Preço: {self.get__preco()} Estoque: {self.get__estoque()}')
 
