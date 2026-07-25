@@ -15,7 +15,7 @@ class DaoProduto:
         mycursor = mydb.cursor()
         
         sql = "insert into tb_produtos(descricao, preco, estoque)values(%s, %s, %s)"
-        val = (self.produto.getDescricao(),self.produto.getPreco(), self.getEstoque)
+        val = (self.produto.getDescricao(),self.produto.getPreco(), self.produto.getEstoque())
 
         mycursor.execute(sql, val)
         mydb.commit()

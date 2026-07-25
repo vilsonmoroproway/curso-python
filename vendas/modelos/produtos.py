@@ -7,7 +7,10 @@ class Produto:
     
     def setId(self, id):
         self.id = id
-    
+
+    def getId(self):
+        return self.id
+
     def getDescricao(self):
         return self.descricao    
     
@@ -28,3 +31,6 @@ class Produto:
     
     def getEstoque(self):
         return self.estoque
+    
+    def display(self):
+        print(f"{self.id} {self.descricao} {self.preco} {self.estoque}")
