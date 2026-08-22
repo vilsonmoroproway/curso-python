@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Novo contato</h1>
+        <form method="POST" class="col-6 align-self-center">
+             {% csrf_token %}
+             <label>Informe nome</label>
+             <input type="text" placeholder="EX: ana" class="form-control" name="nome" required/>
+
+             <label>Informe email</label>
+             <input type="email" placeholder="EX: ana@gmail.com" class="form-control" name="email" required />
+
+             <div>
+                <button class="btn btn-primary" type="submit">Gravar</button>
+                <button class="btn btn-danger" type="reset">Cancelar</button>
+             </div>
+        </form>
+    </div>
+
+</body>
+</html>
